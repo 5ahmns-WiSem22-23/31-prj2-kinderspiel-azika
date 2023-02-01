@@ -18,6 +18,8 @@ Wenn Fisch gefangen wird lacht Pirat für 3 Sekunden
 Fische freuen sich wenn sie entkommen
 ![image](https://user-images.githubusercontent.com/72389411/216015013-ec1d221d-6619-42b1-8c51-410f10b5ee94.png)
 
+- Überhaupt:
+Piraten Cursor
 - Assets
 
 Fische: https://www.pngegg.com/en/png-bvodp/download
