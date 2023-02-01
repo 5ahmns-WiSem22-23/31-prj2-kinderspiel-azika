@@ -4,32 +4,25 @@ using UnityEngine;
 
 public class FishGame : MonoBehaviour
 {
-    public GameObject ship; // Drag and drop the ship object in the inspector
-    public GameObject[] fish; // Drag and drop the fish objects in the inspector
-    public Transform finishLine; // Drag and drop the finish line object in the inspector
-
-     // keeps track of the selected fish
-
+    public GameObject ship;
+    public GameObject[] fish;
+    public Transform finishLine;
     private Sprite[] diceSides;
     private SpriteRenderer rend;
     public bool NothingHappens = false;
     // Start is called before the first frame update
     void Start()
     {
-        // Assign Renderer component
+      
         rend = GetComponent<SpriteRenderer>();
-
-        // Load dice sides sprites to array from DiceSides subfolder of Resources folder
         diceSides = Resources.LoadAll<Sprite>("DiceSides/");
 
     }
-
     private void OnMouseDown()
     {
         StartCoroutine("RollTheDice");
     }
 
-    // Coroutine that rolls the dice
     private IEnumerator RollTheDice()
     {
 
@@ -72,12 +65,7 @@ public class FishGame : MonoBehaviour
                 MoveFish(fish[3]);
                 break;
         }
-
-    
-
-     
-
-        
+ 
     }
     void MoveFish(GameObject fish)
     {
