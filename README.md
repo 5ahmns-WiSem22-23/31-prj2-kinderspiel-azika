@@ -16,7 +16,7 @@ Würfel funktioniert
 Musik im Hintergrund
 Wenn Fisch gefangen wird lacht Pirat für 3 Sekunden
 Fische freuen sich wenn sie entkommen
-![image](https://user-images.githubusercontent.com/72389411/216014282-7a9a21eb-ad46-48e0-b825-bbe25bbb08b8.png)
+![image](https://user-images.githubusercontent.com/72389411/216015013-ec1d221d-6619-42b1-8c51-410f10b5ee94.png)
 
 - Assets
 
